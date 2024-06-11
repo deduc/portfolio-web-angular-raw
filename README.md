@@ -7,3 +7,6 @@
 - Prompting Engineer.
 
 https://deduc.github.io/
+
+# todo:
+- cambiar el enlace a linkedin como target="_blakn"
