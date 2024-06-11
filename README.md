@@ -2,7 +2,7 @@
 
 ## Iván Gómez Calvo
 
-- Desarrollador FullStack.
+- Desarrollador Web FullStack.
 - Científico de datos.
 - Prompting Engineer.
 
