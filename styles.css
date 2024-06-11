@@ -4,11 +4,34 @@
     font-family: monospace;
 }
 
+main section article {
+    margin-bottom: 32px;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, tr, td {
+    border: 1px solid black;
+}
+
+table th {
+    text-decoration-line: underline;
+    font-weight: bolder;
+}
+
+table tr:nth-child(odd) {
+    background-color: rgba(211, 211, 211, 0.5);
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(211, 211, 211, 0.1);
+}
 
 ul {
     display: flex;
     flex-direction: row;
-
     /* Habilitar los saltos de líneas de elementos en el contenedor */
     flex-wrap: wrap;
 }
@@ -17,14 +40,44 @@ li {
     list-style: none;
 }
 
+.borde-ligero {
+    border: 1px solid rgba(211, 211, 211, 0.5);
+}
+
+.contenedor-tecnologias {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
 .foto-ivan {
     margin-top: 64px;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 1px 1px 4px 2px black;
 }
 
+.icono-especial {
+    width: 20px;
+}
+
+.margin-bottom-small {
+    margin-bottom: 8px;
+}
+
 .mb-16-px {
     margin-bottom: 16px;
+}
+
+.padding-right {
+    padding-right: 24px;
+}
+
+.padding-left {
+    padding-left: 24px;
+}
+
+.texto-contacto {
+    font-size: 16px;
 }
 
 @media (min-width: 992px) {
@@ -35,6 +88,8 @@ li {
 
     div article h2 {
         margin-bottom: 16px;
+        margin-left: 8px;
+        margin-top: 4px;
     }
 
     h1 {
@@ -48,8 +103,21 @@ li {
     }
 
     .logo-ancho {
-        width: 64px;
-        height: 48px;
+        width: 70px;
+        height: 50px;
+    }
+
+    .logo-ancho-largo {
+        width: 70px;
+        height: 64px;
+    }
+
+    .hover-resize {
+        transition: 0.4s;
+    }
+
+    .hover-resize:hover {
+        scale: 1.5;
     }
 
 }
