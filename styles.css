@@ -1,6 +1,7 @@
 * {
     /* border: 1px solid red; */
     box-sizing: border-box;
+    font-family: monospace;
 }
 
 
@@ -16,20 +17,34 @@ li {
     list-style: none;
 }
 
+.foto-ivan {
+    margin-top: 64px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 4px 2px black;
+}
+
+.mb-16-px {
+    margin-bottom: 16px;
+}
+
 @media (min-width: 992px) {
     article ul li img {
         width: 48px;
         height: 48px;
     }
 
+    div article h2 {
+        margin-bottom: 16px;
+    }
+
+    h1 {
+        margin-bottom: 32px;
+    }
+
     li {
         /* Indicar cuánto espacio ocupa cada elemento en el contenedor  */
         flex-basis: 25%;
-        margin-bottom: 8px;
-    }
-
-    .foto-ivan {
-        margin-top: 64px;
+        margin-bottom: 16px;
     }
 
     .logo-ancho {
