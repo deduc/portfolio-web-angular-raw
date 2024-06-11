@@ -2,8 +2,8 @@
 
 ## Iván Gómez Calvo
 
-Desarrollador FullStack.
-Científico de datos.
-Prompting Engineer.
+- Desarrollador FullStack.
+- Científico de datos.
+- Prompting Engineer.
 
 https://deduc.github.io/
