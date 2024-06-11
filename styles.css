@@ -30,13 +30,6 @@ table tr:nth-child(even) {
     background-color: rgba(211, 211, 211, 0.1);
 }
 
-ul {
-    display: flex;
-    flex-direction: row;
-    /* Habilitar los saltos de líneas de elementos en el contenedor */
-    flex-wrap: wrap;
-}
-
 li {
     list-style: none;
 }
@@ -63,6 +56,13 @@ p {
 
 .icono-especial {
     width: 20px;
+}
+
+.lista-tecnologias {
+    display: flex;
+    flex-direction: row;
+    /* Habilitar los saltos de líneas de elementos en el contenedor */
+    flex-wrap: wrap;
 }
 
 .margin-bottom-small {
