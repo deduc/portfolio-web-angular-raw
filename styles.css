@@ -17,6 +17,7 @@ table, th, tr, td {
 }
 
 table th {
+    font-size: 14px;
     text-decoration-line: underline;
     font-weight: bolder;
 }
@@ -38,6 +39,10 @@ ul {
 
 li {
     list-style: none;
+}
+
+p {
+    font-size: 14px;
 }
 
 .borde-ligero {
