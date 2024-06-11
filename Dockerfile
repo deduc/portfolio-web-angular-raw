@@ -11,3 +11,6 @@ EXPOSE 80
 # * comando para crear el contenedor
 # docker build -t nombreImagen .
 # docker run -d -p 192.168.1.100:80:80 --name nombreContenedor nombreImagen
+# * Ejemplo real:
+# docker build -t cv_ivan_github .
+# docker run -d -p 8080:80 --name cv_ivan_container cv_ivan_github

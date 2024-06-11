@@ -1,7 +1,11 @@
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     box-sizing: border-box;
     font-family: monospace;
+}
+
+article details summary {
+    font-size: 16px;
 }
 
 main section article {
@@ -71,6 +75,7 @@ p {
 .lista-tecnologias {
     display: flex;
     flex-direction: row;
+    align-items: center;
     /* Habilitar los saltos de líneas de elementos en el contenedor */
     flex-wrap: wrap;
 }
