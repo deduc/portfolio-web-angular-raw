@@ -11,6 +11,9 @@ https://deduc.github.io/
 # todo:
 - cambiar el enlace a linkedin como target="_blakn"
 
+## Compilar el proyecto
+ng build
+
 <hr>
 
 # DeducGithubIo
