@@ -5,9 +5,11 @@ import { PruebasComponent } from "./pages/pruebas/pruebas.component";
 
 
 const routes: Routes = [
-    { path: "", component: HomeComponent, pathMatch: "full" },
+    { path: "", component: HomeComponent},
     { path: "home", component: HomeComponent, pathMatch: "full" },
     { path: "pruebas", component: PruebasComponent, pathMatch: "full" },
+    { path: "**", redirectTo: "" },
+
 ];
 
 
